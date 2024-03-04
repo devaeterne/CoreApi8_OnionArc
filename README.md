@@ -1,3 +1,8 @@
+# BookCar Project with Asp.Net Core Api 8 + Onion Architecture
+## CQRS - Mediator - Repository Design Patterns and a Real Project with JWT - SignalR Topics!
+
+
+
 I've been working on a course for a long time, and it's almost ready – almost, because the course duration is quite long, so I'm continuing with the recordings. I will revise this text when I share the final lesson. Hopefully, I'll share the final lesson within the next two weeks. The goal of this course is to explain the Onion Architecture through AspNet Core Api. In addition to Onion Architecture, you will see various design patterns in this course. In terms of architecture, we used Onion in our course and included the following design patterns:
 
 CQRS
