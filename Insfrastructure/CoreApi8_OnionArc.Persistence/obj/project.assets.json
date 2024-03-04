@@ -1502,6 +1502,16 @@
           }
         }
       },
+      "CoreApi8_OnionArc.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CoreApi8_OnionArc.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreApi8_OnionArc.Application.dll": {}
+        }
+      },
       "CoreApi8_OnionArc.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -4085,6 +4095,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "CoreApi8_OnionArc.Application/1.0.0": {
+      "type": "project",
+      "path": "../../Core/CoreApi8_OnionArc.Application/CoreApi8_OnionArc.Application.csproj",
+      "msbuildProject": "../../Core/CoreApi8_OnionArc.Application/CoreApi8_OnionArc.Application.csproj"
+    },
     "CoreApi8_OnionArc.Domain/1.0.0": {
       "type": "project",
       "path": "../../Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj",
@@ -4093,6 +4108,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "CoreApi8_OnionArc.Application >= 1.0.0",
       "CoreApi8_OnionArc.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 8.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.2",
@@ -4125,6 +4141,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/CoreApi8_OnionArc.Application.csproj": {
+              "projectPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/CoreApi8_OnionArc.Application.csproj"
+            },
             "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj": {
               "projectPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj"
             }
