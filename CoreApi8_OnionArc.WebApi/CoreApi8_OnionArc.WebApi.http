@@ -1,0 +1,7 @@
+﻿@CoreApi8_OnionArc.WebApi_HostAddress = http://localhost:5078
+
+GET {{CoreApi8_OnionArc.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+

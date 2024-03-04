@@ -1,0 +1,12 @@
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.deps.json
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.AssemblyInfoInputs.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.AssemblyInfo.cs
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.csproj.CoreCompileInputs.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.sourcelink.json
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/refint/CoreApi8_OnionArc.Domain.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/CoreApi8_OnionArc.Domain.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/obj/Debug/net8.0/ref/CoreApi8_OnionArc.Domain.dll
