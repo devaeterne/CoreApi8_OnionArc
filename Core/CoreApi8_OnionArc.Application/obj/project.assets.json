@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "CoreApi8_OnionArc.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/CoreApi8_OnionArc.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CoreApi8_OnionArc.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CoreApi8_OnionArc.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj",
+      "msbuildProject": "../CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "CoreApi8_OnionArc.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "/Users/devaeterne/.nuget/packages/": {}
@@ -31,7 +50,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj": {
+              "projectPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

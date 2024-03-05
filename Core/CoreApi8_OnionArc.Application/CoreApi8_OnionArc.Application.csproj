@@ -6,4 +6,7 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreApi8_OnionArc.Domain\CoreApi8_OnionArc.Domain.csproj" />
+  </ItemGroup>
 </Project>

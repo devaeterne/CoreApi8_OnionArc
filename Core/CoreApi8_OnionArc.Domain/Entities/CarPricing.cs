@@ -12,6 +12,6 @@ namespace CoreApi8_OnionArc.Domain.Entities
         public Car Car { get; set; }
         public int PricingID { get; set; }
         public Pricing Pricing { get; set; }
-        public decimal Amoun { get; set; }
+        public decimal Amount { get; set; }
     }
 }

@@ -1505,6 +1505,9 @@
       "CoreApi8_OnionArc.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CoreApi8_OnionArc.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/CoreApi8_OnionArc.Application.dll": {}
         },

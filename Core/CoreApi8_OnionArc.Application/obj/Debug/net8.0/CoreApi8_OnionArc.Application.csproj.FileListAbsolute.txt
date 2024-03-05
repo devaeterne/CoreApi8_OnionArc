@@ -1,0 +1,16 @@
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/bin/Debug/net8.0/CoreApi8_OnionArc.Application.deps.json
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/bin/Debug/net8.0/CoreApi8_OnionArc.Application.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/bin/Debug/net8.0/CoreApi8_OnionArc.Application.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.csproj.AssemblyReference.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.AssemblyInfoInputs.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.AssemblyInfo.cs
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.csproj.CoreCompileInputs.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.sourcelink.json
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.csproj.CopyComplete
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/refint/CoreApi8_OnionArc.Application.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/CoreApi8_OnionArc.Application.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/obj/Debug/net8.0/ref/CoreApi8_OnionArc.Application.dll

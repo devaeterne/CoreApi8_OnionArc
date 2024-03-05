@@ -25,7 +25,11 @@
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj": {
+                "projectPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Domain/CoreApi8_OnionArc.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

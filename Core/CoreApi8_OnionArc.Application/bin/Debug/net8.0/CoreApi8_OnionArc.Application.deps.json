@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CoreApi8_OnionArc.Application/1.0.0": {
+        "dependencies": {
+          "CoreApi8_OnionArc.Domain": "1.0.0"
+        },
+        "runtime": {
+          "CoreApi8_OnionArc.Application.dll": {}
+        }
+      },
+      "CoreApi8_OnionArc.Domain/1.0.0": {
+        "runtime": {
+          "CoreApi8_OnionArc.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CoreApi8_OnionArc.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CoreApi8_OnionArc.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
