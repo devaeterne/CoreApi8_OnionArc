@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/CoreApi8_OnionArc.WebApi.props" />
+</Project>

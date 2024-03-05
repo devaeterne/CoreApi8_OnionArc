@@ -8,7 +8,7 @@ using CoreApi8_OnionArc.Application.Interfaces;
 using CoreApi8_OnionArc.Domain.Entities;
 
 
-namespace UdemyCarBook.Application.Features.CQRS.Handlers.AboutHandlers
+namespace CoreApi8_OnionArc.Application.Features.CQRS.Handlers.AboutHandlers
 {
     public class GetAboutQueryHandler
     {

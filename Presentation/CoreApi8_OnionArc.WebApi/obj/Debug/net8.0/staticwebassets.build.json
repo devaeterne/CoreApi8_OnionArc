@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "vcZmwqMR5y5O9G/r2+XME/qAME6Kpe4ZJQHDypvTdm0=",
+  "Source": "CoreApi8_OnionArc.WebApi",
+  "BasePath": "_content/CoreApi8_OnionArc.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
