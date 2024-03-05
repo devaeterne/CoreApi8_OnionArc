@@ -1,4 +1,4 @@
-﻿<Properties StartupConfiguration="{1AEDA2CE-3A9C-46AF-8DC3-F7F6E64ECF59}|https">
+﻿<Properties StartupConfiguration="{63BE8926-0675-42C8-A316-B1D42281ABA6}|https">
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workbench>
@@ -10,7 +10,7 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Presentation.CoreApi8__OnionArc.WebApi PreferredExecutionTarget="/Applications/Arc.app" FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.Presentation.CoreApi8__OnionArc.WebApi PreferredExecutionTarget="/Applications/Arc.app" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.ItemProperties.Core.CoreApi8__OnionArc.Application FirstBuild="True" />
