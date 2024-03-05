@@ -8,7 +8,7 @@ namespace CoreApi8_OnionArc.Domain.Entities
     public class Pricing
     {
         public int PricingID { get; set; }
-        public string Name { get; set; }
-        public List<CarFeature> CarFeature { get; set; }
+        public string? Name { get; set; }
+        public List<CarFeature>? CarFeature { get; set; }
     }
 }

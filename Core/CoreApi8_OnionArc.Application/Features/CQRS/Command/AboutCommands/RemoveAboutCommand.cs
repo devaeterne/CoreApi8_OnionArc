@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoreApi8_OnionArc.Application.Features.CQRS.Commad.AboutCommands
+namespace CoreApi8_OnionArc.Application.Features.CQRS.Command.AboutCommands
 {
     public class RemoveAboutCommand
     {

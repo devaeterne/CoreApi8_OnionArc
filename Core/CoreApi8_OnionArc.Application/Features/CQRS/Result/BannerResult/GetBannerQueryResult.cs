@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoreApi8_OnionArc.Domain.Entities
+namespace CoreApi8_OnionArc.Application.Features.CQRS.Result.BannerResult
 {
-    public class Banner
+    public class GetBannerQueryResult
     {
         public int BannerID { get; set; }
         public string? Title { get; set; }

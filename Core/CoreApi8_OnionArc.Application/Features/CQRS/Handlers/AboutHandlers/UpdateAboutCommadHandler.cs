@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Features.CQRS.Commad.AboutCommands;
+using CoreApi8_OnionArc.Application.Features.CQRS.Command.AboutCommands;
 using CoreApi8_OnionArc.Application.Interfaces;
 using CoreApi8_OnionArc.Domain.Entities;
 

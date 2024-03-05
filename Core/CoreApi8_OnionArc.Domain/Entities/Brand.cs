@@ -9,6 +9,6 @@ namespace CoreApi8_OnionArc.Domain.Entities
     {
         public int BrandID { get; set; }
         public int BrandName { get; set; }
-        public List<Car> Cars { get; set; }
+        public List<Car>? Cars { get; set; }
     }
 }

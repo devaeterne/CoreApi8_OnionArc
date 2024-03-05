@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoreApi8_OnionArc.Domain.Entities
+namespace CoreApi8_OnionArc.Application.Features.CQRS.Command.AboutCommands
 {
-    public class Service
+    public class CreateAboutCommand
     {
-        public int ServiceID { get; set; }
         public string? Title { get; set; }
         public string? Description { get; set; }
-        public string? IconUrl { get; set; }
+        public string? ImageUrl { get; set; }
     }
 }
