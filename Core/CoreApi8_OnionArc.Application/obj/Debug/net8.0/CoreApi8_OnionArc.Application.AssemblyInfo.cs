@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreApi8_OnionArc.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54561031a0b9cae10f5aadf274f17aa75446aca6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e94282466a0d0c970e1b5598336e2bb2552deb05")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreApi8_OnionArc.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreApi8_OnionArc.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
