@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreApi8_OnionArc.WebApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ebf3aab5819422e6ba016944d21fc239120d334")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ad9b8667e0a2911f18bc727073955acad4ef5eae")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreApi8_OnionArc.WebApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreApi8_OnionArc.WebApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

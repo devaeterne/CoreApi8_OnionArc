@@ -7,7 +7,7 @@ namespace CoreApi8_OnionArc.Application.Features.CQRS.Command.ContactCommands
 {
     public class CreateContactCommand
     {
-        public int ContactID { get; set; }
+
         public string? Name { get; set; }
         public string? Email { get; set; }
         public string? Subject { get; set; }

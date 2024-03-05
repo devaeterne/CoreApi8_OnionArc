@@ -2,7 +2,7 @@
 using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.BannerHandlers;
 using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.BrandHandlers;
 using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.CarHandlers;
-using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.CategoryHandlers;
+using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.ContactHandlers;
 using CoreApi8_OnionArc.Application.Interfaces;
 using CoreApi8_OnionArc.Application.Interfaces.CarInterfaces;
 using CoreApi8_OnionArc.Persistence.Context;
@@ -42,12 +42,18 @@ builder.Services.AddScoped<RemoveCarCommandHandler>();
 builder.Services.AddScoped<CreateCarCommandHandler>();
 builder.Services.AddScoped<GetCarWithBrandQueryHandler>();
 builder.Services.AddScoped<GetLast5CarsWithBrandQueryHandler>();
-//CategoryScoped
-builder.Services.AddScoped<GetCategoryByIdQueryHandler>();
-builder.Services.AddScoped<GetCategoryQueryHandler>();
-builder.Services.AddScoped<UpdateCategoryCommandHandler>();
-builder.Services.AddScoped<RemoveCategoryCommandHandler>();
-builder.Services.AddScoped<CreateCategoryCommandHandler>();
+//ContactScoped
+builder.Services.AddScoped<GetContactByIdQueryHandler>();
+builder.Services.AddScoped<GetContactQueryHandler>();
+builder.Services.AddScoped<UpdateContactCommandHandler>();
+builder.Services.AddScoped<RemoveContactCommandHandler>();
+builder.Services.AddScoped<CreateContactCommandHandler>();
+//ContactScoped
+builder.Services.AddScoped<GetContactByIdQueryHandler>();
+builder.Services.AddScoped<GetContactQueryHandler>();
+builder.Services.AddScoped<UpdateContactCommandHandler>();
+builder.Services.AddScoped<RemoveContactCommandHandler>();
+builder.Services.AddScoped<CreateContactCommandHandler>();
 
 
 
