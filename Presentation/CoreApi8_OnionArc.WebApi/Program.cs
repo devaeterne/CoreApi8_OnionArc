@@ -1,4 +1,5 @@
 ﻿using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.AboutHandlers;
+using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.BannerHandlers;
 using CoreApi8_OnionArc.Application.Interfaces;
 using CoreApi8_OnionArc.Persistence.Context;
 using CoreApi8_OnionArc.Persistence.Repositories;
@@ -14,6 +15,12 @@ builder.Services.AddScoped<GetAboutQueryHandler>();
 builder.Services.AddScoped<UpdateAboutCommandHandler>();
 builder.Services.AddScoped<RemoveAboutCommandHandler>();
 builder.Services.AddScoped<CreateAboutCommandHandler>();
+
+builder.Services.AddScoped<GetBannerByIdQueryHandler>();
+builder.Services.AddScoped<GetBannerQueryHandler>();
+builder.Services.AddScoped<UpdateBannerCommandHandler>();
+builder.Services.AddScoped<RemoveBannerCommandHandler>();
+builder.Services.AddScoped<CreateBannerCommandHandler>();
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
