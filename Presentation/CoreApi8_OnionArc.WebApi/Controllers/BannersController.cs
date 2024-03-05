@@ -11,7 +11,7 @@ namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class BannerController : ControllerBase
+    public class BannersController : ControllerBase
     {
         private readonly CreateBannerCommandHandler _createBannerCommandHandler;
         private readonly GetBannerByIdQueryHandler _getBannerByIdQueryHandler;
@@ -19,7 +19,7 @@ namespace CoreApi8_OnionArc.WebApi.Controllers
         private readonly UpdateBannerCommandHandler _updateBannerCommandHandler;
         private readonly RemoveBannerCommandHandler _removeBannerCommandHandler;
 
-        public BannerController(CreateBannerCommandHandler createBannerCommandHandler, GetBannerByIdQueryHandler getBannerByIdQueryHandler, GetBannerQueryHandler getBannerQueryHandler, UpdateBannerCommandHandler updateBannerCommandHandler, RemoveBannerCommandHandler removeBannerCommandHandler)
+        public BannersController(CreateBannerCommandHandler createBannerCommandHandler, GetBannerByIdQueryHandler getBannerByIdQueryHandler, GetBannerQueryHandler getBannerQueryHandler, UpdateBannerCommandHandler updateBannerCommandHandler, RemoveBannerCommandHandler removeBannerCommandHandler)
         {
             _createBannerCommandHandler = createBannerCommandHandler;
             _getBannerByIdQueryHandler = getBannerByIdQueryHandler;

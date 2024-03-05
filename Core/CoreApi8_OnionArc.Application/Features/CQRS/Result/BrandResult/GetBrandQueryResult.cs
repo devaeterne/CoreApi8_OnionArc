@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoreApi8_OnionArc.Domain.Entities
+namespace CoreApi8_OnionArc.Application.Features.CQRS.Result.BrandResult
 {
-    public class Brand
+    public class GetBrandQueryResult
     {
         public int BrandID { get; set; }
         public string BrandName { get; set; }
-        public List<Car>? Cars { get; set; }
+
     }
 }
