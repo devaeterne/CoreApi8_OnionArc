@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "k9sXXSQiFA0JNUz7LRkibtzMFAE9o9JbW+/WLnxTTbMy8G/6j9BW4l8LsSBRRvXfSqSs+a2J9mcfxH/P3h+dnQ==",
+  "dgSpecHash": "mTMUYVzi06xM1jJVRANWsnsh9ajVb9YsFulwgaPyfvIo9HbHeeRxqLQn5itqaxS/PgRhyQdtM5fwuvgNrbiEaQ==",
   "success": true,
   "projectFilePath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/CoreApi8_OnionArc.WebApi.csproj",
   "expectedPackageFiles": [
     "/Users/devaeterne/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.codeanalysis.common/4.5.0/microsoft.codeanalysis.common.4.5.0.nupkg.sha512",
@@ -25,6 +27,7 @@
     "/Users/devaeterne/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.extensions.caching.memory/8.0.0/microsoft.extensions.caching.memory.8.0.0.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.0/microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/Users/devaeterne/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",

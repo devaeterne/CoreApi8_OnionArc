@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "jXQz9KtPqq6ydmBcDlsAq974kmMnT8AFGC21/pFH2bSIUKmTu+H2113RmttI5KhMteEG/d+dvG15MjCoutPnyg==",
+  "dgSpecHash": "OSCb6s3ER5G/U9DegXn5v80mxreiMT1Cg+FKuNxs9GKdxeYapEg6INSb1dSGXzk9tYlEyh9kqZe2OEsg126HMg==",
   "success": true,
   "projectFilePath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Core/CoreApi8_OnionArc.Application/CoreApi8_OnionArc.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/devaeterne/.nuget/packages/mediatr/12.2.0/mediatr.12.2.0.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/microsoft.extensions.configuration/8.0.0/microsoft.extensions.configuration.8.0.0.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/microsoft.extensions.configuration.abstractions/8.0.0/microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "/Users/devaeterne/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -2,8 +2,10 @@
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Persistence.runtimeconfig.json
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Persistence.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Persistence.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Application.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Application.pdb
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/obj/Debug/net8.0/CoreApi8_OnionArc.Persistence.csproj.AssemblyReference.cache
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/obj/Debug/net8.0/CoreApi8_OnionArc.Persistence.GeneratedMSBuildEditorConfig.editorconfig
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/obj/Debug/net8.0/CoreApi8_OnionArc.Persistence.AssemblyInfoInputs.cache
@@ -16,5 +18,3 @@
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/obj/Debug/net8.0/CoreApi8_OnionArc.Persistence.pdb
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/obj/Debug/net8.0/CoreApi8_OnionArc.Persistence.genruntimeconfig.cache
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/obj/Debug/net8.0/ref/CoreApi8_OnionArc.Persistence.dll
-/Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Application.dll
-/Users/devaeterne/Projects/CoreApi8_OnionArc/Insfrastructure/CoreApi8_OnionArc.Persistence/bin/Debug/net8.0/CoreApi8_OnionArc.Application.pdb

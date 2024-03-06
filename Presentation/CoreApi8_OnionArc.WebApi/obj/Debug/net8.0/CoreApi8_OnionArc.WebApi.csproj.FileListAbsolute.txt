@@ -16,6 +16,8 @@
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/Azure.Core.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/Azure.Identity.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/Humanizer.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/MediatR.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/MediatR.Contracts.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/Microsoft.CodeAnalysis.CSharp.dll
@@ -124,9 +126,9 @@
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Application.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.dll
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Persistence.dll
-/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.pdb
-/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Application.pdb
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Persistence.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Application.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/bin/Debug/net8.0/CoreApi8_OnionArc.Domain.pdb
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/obj/Debug/net8.0/staticwebassets.build.json
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/obj/Debug/net8.0/staticwebassets.development.json
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Presentation/CoreApi8_OnionArc.WebApi/obj/Debug/net8.0/staticwebassets/msbuild.CoreApi8_OnionArc.WebApi.Microsoft.AspNetCore.StaticWebAssets.props

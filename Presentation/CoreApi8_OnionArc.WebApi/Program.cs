@@ -4,6 +4,7 @@ using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.BrandHandlers;
 using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.CarHandlers;
 using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.ContactHandlers;
 using CoreApi8_OnionArc.Application.Interfaces;
+using CoreApi8_OnionArc.Application.Services;
 using CoreApi8_OnionArc.Application.Interfaces.CarInterfaces;
 using CoreApi8_OnionArc.Persistence.Context;
 using CoreApi8_OnionArc.Persistence.Repositories;
@@ -55,7 +56,7 @@ builder.Services.AddScoped<UpdateContactCommandHandler>();
 builder.Services.AddScoped<RemoveContactCommandHandler>();
 builder.Services.AddScoped<CreateContactCommandHandler>();
 
-
+builder.Services.AddApplicationServices(builder.Configuration);
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
