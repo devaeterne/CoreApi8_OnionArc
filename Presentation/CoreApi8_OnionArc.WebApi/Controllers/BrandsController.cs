@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Features.CQRS.Command.BrandCommands;
-using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.BrandHandlers;
-using CoreApi8_OnionArc.Application.Features.CQRS.Queries.BrandQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Command.BrandCommands;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.BrandQueries;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreApi8_OnionArc.WebApi.Controllers
@@ -13,48 +13,41 @@ namespace CoreApi8_OnionArc.WebApi.Controllers
     [Route("api/[controller]")]
     public class BrandsController : ControllerBase
     {
-        private readonly CreateBrandCommandHandler _createBrandCommandHandler;
-        private readonly GetBrandByIdQueryHandler _getBrandByIdQueryHandler;
-        private readonly GetBrandQueryHandler _getBrandQueryHandler;
-        private readonly UpdateBrandCommandHandler _updateBrandCommandHandler;
-        private readonly RemoveBrandCommandHandler _removeBrandCommandHandler;
+        private readonly IMediator _mediator;
 
-        public BrandsController(CreateBrandCommandHandler createBrandCommandHandler, GetBrandByIdQueryHandler getBrandByIdQueryHandler, GetBrandQueryHandler getBrandQueryHandler, UpdateBrandCommandHandler updateBrandCommandHandler, RemoveBrandCommandHandler removeBrandCommandHandler)
+        public BrandsController(IMediator mediator)
         {
-            _createBrandCommandHandler = createBrandCommandHandler;
-            _getBrandByIdQueryHandler = getBrandByIdQueryHandler;
-            _getBrandQueryHandler = getBrandQueryHandler;
-            _updateBrandCommandHandler = updateBrandCommandHandler;
-            _removeBrandCommandHandler = removeBrandCommandHandler;
+            _mediator = mediator;
         }
+
         [HttpGet]
         public async Task<IActionResult> BrandList()
         {
-            var values = await _getBrandQueryHandler.Handle();
+            var values = await _mediator.Send(new GetBrandQuery());
             return Ok(values);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetBrand(int id)
         {
-            var value = await _getBrandByIdQueryHandler.Handle(new GetBrandByIdQuery(id));
+            var value = await _mediator.Send(new GetBrandByIdQuery(id));
             return Ok(value);
         }
         [HttpPost]
         public async Task<IActionResult> CreateBrand(CreateBrandCommand command)
         {
-            await _createBrandCommandHandler.Handle(command);
+            await _mediator.Send(command);
             return Ok("Brand Bilgisi Eklendi");
         }
         [HttpDelete]
         public async Task<IActionResult> RemoveBrand(int id)
         {
-            await _removeBrandCommandHandler.Handle(new RemoveBrandCommand(id));
+            await _mediator.Send(new RemoveBrandCommand(id));
             return Ok("Brand Silindi");
         }
         [HttpPut]
         public async Task<IActionResult> UpdateBrand(UpdateBrandCommand command)
         {
-            await _updateBrandCommandHandler.Handle(command);
+            await _mediator.Send(command);
             return Ok("Brand Güncellendi");
         }
     }

@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Features.CQRS.Command.CategoryCommands;
-using CoreApi8_OnionArc.Application.Features.CQRS.Handlers.CategoryHandlers;
-using CoreApi8_OnionArc.Application.Features.CQRS.Queries.CategoryQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Command.CategoryCommands;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.CategoryQueries;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CoreApi8_OnionArc.WebApi.Controllers
@@ -13,48 +13,41 @@ namespace CoreApi8_OnionArc.WebApi.Controllers
     [Route("api/[controller]")]
     public class CategoriesController : ControllerBase
     {
-        private readonly CreateCategoryCommandHandler _createCategoryCommandHandler;
-        private readonly GetCategoryByIdQueryHandler _getCategoryByIdQueryHandler;
-        private readonly GetCategoryQueryHandler _getCategoryQueryHandler;
-        private readonly UpdateCategoryCommandHandler _updateCategoryCommandHandler;
-        private readonly RemoveCategoryCommandHandler _removeCategoryCommandHandler;
+        private readonly IMediator _mediator;
 
-        public CategoriesController(CreateCategoryCommandHandler createCategoryCommandHandler, GetCategoryByIdQueryHandler getCategoryByIdQueryHandler, GetCategoryQueryHandler getCategoryQueryHandler, UpdateCategoryCommandHandler updateCategoryCommandHandler, RemoveCategoryCommandHandler removeCategoryCommandHandler)
+        public CategoriesController(IMediator mediator)
         {
-            _createCategoryCommandHandler = createCategoryCommandHandler;
-            _getCategoryByIdQueryHandler = getCategoryByIdQueryHandler;
-            _getCategoryQueryHandler = getCategoryQueryHandler;
-            _updateCategoryCommandHandler = updateCategoryCommandHandler;
-            _removeCategoryCommandHandler = removeCategoryCommandHandler;
+            _mediator = mediator;
         }
+
         [HttpGet]
         public async Task<IActionResult> CategoryList()
         {
-            var values = await _getCategoryQueryHandler.Handle();
+            var values = await _mediator.Send(new GetCategoryQuery());
             return Ok(values);
         }
         [HttpGet("{id}")]
         public async Task<IActionResult> GetCategory(int id)
         {
-            var value = await _getCategoryByIdQueryHandler.Handle(new GetCategoryByIdQuery(id));
+            var value = await _mediator.Send(new GetCategoryByIdQuery(id));
             return Ok(value);
         }
         [HttpPost]
         public async Task<IActionResult> CreateCategory(CreateCategoryCommand command)
         {
-            await _createCategoryCommandHandler.Handle(command);
+            await _mediator.Send(command);
             return Ok("Category Bilgisi Eklendi");
         }
         [HttpDelete]
         public async Task<IActionResult> RemoveCategory(int id)
         {
-            await _removeCategoryCommandHandler.Handle(new RemoveCategoryCommand(id));
+            await _mediator.Send(new RemoveCategoryCommand(id));
             return Ok("Category Silindi");
         }
         [HttpPut]
         public async Task<IActionResult> UpdateCategory(UpdateCategoryCommand command)
         {
-            await _updateCategoryCommandHandler.Handle(command);
+            await _mediator.Send(command);
             return Ok("Category Güncellendi");
         }
     }
