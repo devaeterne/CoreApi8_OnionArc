@@ -2,16 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Features.Mediator.Result.LocationResults;
+using CoreApi8_OnionArc.Application.Features.Mediator.Result.PricingResults;
 using MediatR;
 
-namespace CoreApi8_OnionArc.Application.Features.Mediator.Queries.LocationQueries
+namespace CoreApi8_OnionArc.Application.Features.Mediator.Queries.PricingQueries
 {
-    public class GetLocationByIdQuery : IRequest<GetLocationByIdQueryResult>
+    public class GetPricingByIdQuery : IRequest<GetPricingByIdQueryResult>
     {
         public int Id { get; set; }
 
-        public GetLocationByIdQuery(int id)
+        public GetPricingByIdQuery(int id)
         {
             Id = id;
         }
