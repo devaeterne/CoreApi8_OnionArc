@@ -1,29 +1,18 @@
 ﻿<Properties StartupConfiguration="{63BE8926-0675-42C8-A316-B1D42281ABA6}|https">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Presentation.CoreApi8__OnionArc.WebApi PreferredExecutionTarget="/Applications/Arc.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.DebuggingService.Breakpoints />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Frontends.CoreApi8__OnionArc.WebUI FirstBuild="True" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CoreApi8_OnionArc.Application/Features/CQRS/Handlers/BrandHandlers/GetBrandQueryHandler.cs">
-    <Files>
-      <File FileName="Core/CoreApi8_OnionArc.Application/Features/CQRS/Handlers/AboutHandlers/GetAboutQueryHandler.cs" />
-      <File FileName="Presentation/CoreApi8_OnionArc.WebApi/Program.cs" Line="19" Column="14" />
-      <File FileName="Insfrastructure/CoreApi8_OnionArc.Persistence/Context/CarBookContext.cs" Line="8" Column="11" />
-      <File FileName="Core/CoreApi8_OnionArc.Application/Features/CQRS/Handlers/BrandHandlers/CreateBrandCommandHandler.cs" Line="1" Column="1" />
-      <File FileName="Core/CoreApi8_OnionArc.Application/Features/CQRS/Handlers/BrandHandlers/GetBrandQueryHandler.cs" Line="28" Column="2" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CoreApi8_OnionArc" expanded="True">
-            <Node name="Core" expanded="True" />
-            <Node name="Presentation" expanded="True">
-              <Node name="CoreApi8_OnionArc.WebApi" expanded="True" selected="True" />
-            </Node>
+          <Node name="CoreApi8_OnionArc">
+            <Node name="Frontends" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Presentation.CoreApi8__OnionArc.WebApi PreferredExecutionTarget="/Applications/Arc.app" />
 </Properties>

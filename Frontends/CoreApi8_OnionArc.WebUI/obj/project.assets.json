@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/devaeterne/Projects/CoreApi8_OnionArc/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.WebUI.csproj",
+      "projectUniqueName": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.WebUI.csproj",
       "projectName": "CoreApi8_OnionArc.WebUI",
-      "projectPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.WebUI.csproj",
+      "projectPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.WebUI.csproj",
       "packagesPath": "/Users/devaeterne/.nuget/packages/",
-      "outputPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/CoreApi8_OnionArc.WebUI/obj/",
+      "outputPath": "/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/devaeterne/.nuget/NuGet/NuGet.Config"
