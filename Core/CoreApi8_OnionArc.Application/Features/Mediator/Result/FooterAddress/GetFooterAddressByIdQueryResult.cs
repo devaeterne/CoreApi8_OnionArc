@@ -3,16 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CoreApi8_OnionArc.Domain.Entities
+namespace CoreApi8_OnionArc.Application.Features.Mediator.Result.FooterAddress
 {
-    public class FooterAdress
+    public class GetFooterAddressByIdQueryResult
     {
-        public int FooterAdressID { get; set; }
+        public int FooterAddressID { get; set; }
         public string? Description { get; set; }
         public string? Adress { get; set; }
         public string? Phone { get; set; }
         public string? Email { get; set; }
-
-
     }
 }

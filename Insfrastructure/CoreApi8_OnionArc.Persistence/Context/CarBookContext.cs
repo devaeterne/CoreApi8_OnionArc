@@ -24,7 +24,7 @@ namespace CoreApi8_OnionArc.Persistence.Context
         public DbSet<Category> Categories { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Feature> Features { get; set; }
-        public DbSet<FooterAdress> FooterAdresses { get; set; }
+        public DbSet<FooterAddress> FooterAddresses { get; set; }
         public DbSet<Location> Locations { get; set; }
         public DbSet<Pricing> Pricings { get; set; }
         public DbSet<Service> Services { get; set; }
