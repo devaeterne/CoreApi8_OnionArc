@@ -60,3 +60,4 @@
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/obj/Debug/net8.0/CoreApi8_OnionArc.WebUI.pdb
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/obj/Debug/net8.0/CoreApi8_OnionArc.WebUI.genruntimeconfig.cache
 /Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/obj/Debug/net8.0/ref/CoreApi8_OnionArc.WebUI.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/obj/Debug/net8.0/CoreApi8_OnionArc.WebUI.csproj.AssemblyReference.cache

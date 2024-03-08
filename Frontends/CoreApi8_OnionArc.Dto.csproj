@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ViewComponents\" />
+    <None Remove="ViewComponents\FooterAddressDtos\" />
+    <None Remove="ViewComponents\TestimonialDtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ViewComponents\" />
+    <Folder Include="ViewComponents\FooterAddressDtos\" />
+    <Folder Include="ViewComponents\TestimonialDtos\" />
+  </ItemGroup>
+</Project>

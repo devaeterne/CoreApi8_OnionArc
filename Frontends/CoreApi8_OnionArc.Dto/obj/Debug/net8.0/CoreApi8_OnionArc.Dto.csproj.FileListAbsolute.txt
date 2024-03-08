@@ -1,0 +1,12 @@
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/bin/Debug/net8.0/CoreApi8_OnionArc.Dto.deps.json
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/bin/Debug/net8.0/CoreApi8_OnionArc.Dto.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/bin/Debug/net8.0/CoreApi8_OnionArc.Dto.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.GeneratedMSBuildEditorConfig.editorconfig
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.AssemblyInfoInputs.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.AssemblyInfo.cs
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.csproj.CoreCompileInputs.cache
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.sourcelink.json
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/refint/CoreApi8_OnionArc.Dto.dll
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/CoreApi8_OnionArc.Dto.pdb
+/Users/devaeterne/Projects/CoreApi8_OnionArc/Frontends/CoreApi8_OnionArc.WebUI/CoreApi8_OnionArc.Dto/obj/Debug/net8.0/ref/CoreApi8_OnionArc.Dto.dll
