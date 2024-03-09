@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Queries.CarPricingQueries;
-using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.CarPricingQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.LocationQueries;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -23,10 +23,10 @@ namespace UdemyCarBook.WebApi.Controllers
         }
 
         [HttpGet("GetCarPricingWithTimePeriodList")]
-		public async Task<IActionResult> GetCarPricingWithTimePeriodList()
-		{
-			var values = await _mediator.Send(new GetCarPricingWithTimePeriodQuery());
-			return Ok(values);
-		}
-	}
+        public async Task<IActionResult> GetCarPricingWithTimePeriodList()
+        {
+            var values = await _mediator.Send(new GetCarPricingWithTimePeriodQuery());
+            return Ok(values);
+        }
+    }
 }

@@ -1,14 +1,14 @@
+﻿using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Features.Mediator.Commands.FeatureCommands;
-using CoreApi8_OnionArc.Application.Features.Mediator.Commands.FooterAddress;
+using CoreApi8_OnionArc.Application.Features.Mediator.Commands.FooterAddressCommands;
 using CoreApi8_OnionArc.Application.Interfaces;
 using CoreApi8_OnionArc.Domain.Entities;
-using MediatR;
 
-namespace CoreApi8_OnionArc.Application.Features.Mediator.Handlers.FeatureHandlers
+namespace UdemyCarBook.Application.Features.Mediator.Handlers.FooterAddressHandlers
 {
     public class RemoveFooterAddressCommandHandler : IRequestHandler<RemoveFooterAddressCommand>
     {

@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Queries.CarDescriptionQueries;
-using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.CarDescriptionQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.LocationQueries;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -18,7 +18,7 @@ namespace UdemyCarBook.WebApi.Controllers
         [HttpGet]
         public async Task<IActionResult> CarDescriptionByCarId(int id)
         {
-            var values =await _mediator.Send(new GetCarDescriptionByCarIdQuery(id));
+            var values = await _mediator.Send(new GetCarDescriptionByCarIdQuery(id));
             return Ok(values);
         }
     }

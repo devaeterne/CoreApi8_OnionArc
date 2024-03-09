@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Features.Mediator.Commands.FooterAddress;
+using CoreApi8_OnionArc.Application.Features.Mediator.Commands.FooterAddressCommands;
 using CoreApi8_OnionArc.Application.Features.Mediator.Queries.FooterAddressQueries;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;

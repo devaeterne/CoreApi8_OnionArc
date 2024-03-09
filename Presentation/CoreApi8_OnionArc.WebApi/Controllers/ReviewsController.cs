@@ -2,12 +2,12 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Commands.ReviewCommands;
-using UdemyCarBook.Application.Features.Mediator.Queries.LocationQueries;
-using UdemyCarBook.Application.Features.Mediator.Queries.ReviewQueries;
-using UdemyCarBook.Application.Validators.ReviewValidators;
+using CoreApi8_OnionArc.Application.Features.Mediator.Commands.ReviewCommands;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.LocationQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.ReviewQueries;
+using CoreApi8_OnionArc.Application.Validators.ReviewValidators;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -30,7 +30,7 @@ namespace UdemyCarBook.WebApi.Controllers
         public async Task<IActionResult> CreateReview(CreateReviewCommand command)
         {
             CreateReviewValidator validator = new CreateReviewValidator();
-            var validationResult=validator.Validate(command);
+            var validationResult = validator.Validate(command);
 
             if (!validationResult.IsValid)
             {

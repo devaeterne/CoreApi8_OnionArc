@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CoreApi8_OnionArc.Application.Features.Mediator.Result.FooterAddressResults
+namespace CoreApi8_OnionArc.Application.Features.Mediator.Results.FooterAddressResults
 {
     public class GetFooterAddressQueryResult
     {

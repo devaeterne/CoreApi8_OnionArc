@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Queries.AppUserQueries;
-using UdemyCarBook.Application.Tools;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.AppUserQueries;
+using CoreApi8_OnionArc.Application.Tools;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

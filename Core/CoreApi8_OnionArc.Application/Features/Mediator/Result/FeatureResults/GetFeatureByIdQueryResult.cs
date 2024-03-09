@@ -9,6 +9,6 @@ namespace CoreApi8_OnionArc.Application.Features.Mediator.Result.FeatureResults
     public class GetFeatureByIdQueryResult
     {
         public int FeatureID { get; set; }
-        public string Name { get; set; }
+        public string FeatureName { get; set; }
     }
 }

@@ -1,10 +1,10 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Commands.TestimonialCommands;
-using UdemyCarBook.Application.Features.Mediator.Queries.TestimonialQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Commands.TestimonialCommands;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.TestimonialQueries;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

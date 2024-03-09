@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 using CoreApi8_OnionArc.Application.Features.Mediator.Commands.AuthorCommands;
 using CoreApi8_OnionArc.Application.Features.Mediator.Queries.AuthorQueries;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

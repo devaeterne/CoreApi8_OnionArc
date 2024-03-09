@@ -9,6 +9,6 @@ namespace CoreApi8_OnionArc.Application.Features.Mediator.Result.LocationResults
     public class GetLocationQueryResult
     {
         public int LocationID { get; set; }
-        public string Name { get; set; }
+        public string LocationName { get; set; }
     }
 }

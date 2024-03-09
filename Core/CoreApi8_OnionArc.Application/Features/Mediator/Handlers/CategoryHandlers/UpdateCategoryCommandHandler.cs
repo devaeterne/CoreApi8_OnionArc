@@ -13,6 +13,11 @@ namespace CoreApi8_OnionArc.Application.Features.Mediator.Handlers.CategoryHandl
     {
         private readonly IRepository<Category> _repository;
 
+        public UpdateCategoryCommandHandler(IRepository<Category> repository)
+        {
+            _repository = repository;
+        }
+
         public async Task Handle(UpdateCategoryCommand request, CancellationToken cancellationToken)
         {
             var value = await _repository.GetByIdAsync(request.CategoryID);

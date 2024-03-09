@@ -5,7 +5,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CoreApi8_OnionArc.Application.Features.Mediator.Queries.StatisticsQueries;
-using CoreApi8_OnionArc.Application.Features.Mediator.Result.FooterAddressResults;
 using CoreApi8_OnionArc.Application.Features.Mediator.Result.StatisticsResults;
 using CoreApi8_OnionArc.Application.Interfaces.CarInterfaces;
 

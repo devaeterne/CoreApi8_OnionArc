@@ -7,7 +7,7 @@ using MediatR;
 
 namespace CoreApi8_OnionArc.Application.Features.Mediator.Queries.CategoryQueries
 {
-    public class GetCategoryByIdQuery : IRequest<GetCategoryQueryResult>
+    public class GetCategoryByIdQuery : IRequest<GetCategoryByIdQueryResult>
     {
         public int Id { get; set; }
 

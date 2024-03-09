@@ -1,9 +1,9 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Queries.RentACarQueries;
+using CoreApi8_OnionArc.Application.Features.Mediator.Queries.RentACarQueries;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -16,7 +16,7 @@ namespace UdemyCarBook.WebApi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetRentACarListByLocation(int locationID,bool available)
+        public async Task<IActionResult> GetRentACarListByLocation(int locationID, bool available)
         {
             GetRentACarQuery getRentACarQuery = new GetRentACarQuery()
             {

@@ -12,6 +12,6 @@ namespace CoreApi8_OnionArc.Domain.Entities
         public Car? Car { get; set; }
         public int FeatureID { get; set; }
         public Feature? Feature { get; set; }
-        public bool Availablea { get; set; }
+        public bool Available { get; set; }
     }
 }

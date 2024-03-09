@@ -1,12 +1,12 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using UdemyCarBook.Application.Features.Mediator.Commands.CommentCommands;
-using UdemyCarBook.Application.Features.Mediator.Commands.ReservationCommands;
-using UdemyCarBook.Application.Features.RepositoryPattern;
-using UdemyCarBook.Domain.Entities;
+using CoreApi8_OnionArc.Application.Features.Mediator.Commands.CommentCommands;
+using CoreApi8_OnionArc.Application.Features.Mediator.Commands.ReservationCommands;
+using CoreApi8_OnionArc.Application.Features.RepositoryPattern;
+using CoreApi8_OnionArc.Domain.Entities;
 
-namespace UdemyCarBook.WebApi.Controllers
+namespace CoreApi8_OnionArc.WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -29,7 +29,7 @@ namespace UdemyCarBook.WebApi.Controllers
 
         [HttpPost]
         public IActionResult CreateComment(Comment comment)
-        {           
+        {
             _commentsRepository.Create(comment);
             return Ok("Yorum başarıyla eklendi");
         }
@@ -66,7 +66,7 @@ namespace UdemyCarBook.WebApi.Controllers
         [HttpGet("CommentCountByBlog")]
         public IActionResult CommentCountByBlog(int id)
         {
-            var value=_commentsRepository.GetCountCommentByBlog(id);
+            var value = _commentsRepository.GetCountCommentByBlog(id);
             return Ok(value);
         }
 

@@ -1,11 +1,11 @@
+﻿using MediatR;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using CoreApi8_OnionArc.Application.Interfaces;
-using MediatR;
 
-namespace CoreApi8_OnionArc.Application.Features.Mediator.Commands.FooterAddress
+namespace CoreApi8_OnionArc.Application.Features.Mediator.Commands.FooterAddressCommands
 {
     public class RemoveFooterAddressCommand : IRequest
     {

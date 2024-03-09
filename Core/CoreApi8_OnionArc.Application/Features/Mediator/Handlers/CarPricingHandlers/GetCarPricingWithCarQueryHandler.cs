@@ -26,8 +26,8 @@ namespace CoreApi8_OnionArc.Application.Features.Mediator.Handlers.CarPricingHan
             {
                 Amount = x.Amount,
                 CarPricingId = x.CarPricingID,
-                Brand = x.Car.Brand.Name,
-                CoverImageUrl = x.Car.CoverImageUrl,
+                Brand = x.Car.Brand.BrandName,
+                CoverImageUrl = x.Car.CoverIMGUrl,
                 Model = x.Car.Model,
                 CarId = x.CarID
             }).ToList();

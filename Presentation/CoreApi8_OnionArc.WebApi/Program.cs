@@ -3,7 +3,7 @@ using CoreApi8_OnionArc.Application.Services;
 using CoreApi8_OnionArc.Application.Interfaces.CarInterfaces;
 using CoreApi8_OnionArc.Persistence.Context;
 using CoreApi8_OnionArc.Persistence.Repositories;
-using CoreApi8_OnionArc.Persistence.Repositories.CarRepository;
+using CoreApi8_OnionArc.Persistence.Repositories.CarRepositories;
 
 var builder = WebApplication.CreateBuilder(args);
 

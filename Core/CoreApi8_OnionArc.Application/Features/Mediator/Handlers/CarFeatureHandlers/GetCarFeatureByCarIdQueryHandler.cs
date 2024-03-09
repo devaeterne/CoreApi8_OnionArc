@@ -32,7 +32,7 @@ namespace CoreApi8_OnionArc.Application.Features.Mediator.Handlers.CarFeatureHan
                 Available = x.Available,
                 CarFeatureID = x.CarFeatureID,
                 FeatureID = x.FeatureID,
-                FeatureName = x.Feature.Name
+                FeatureName = x.Feature.FeatureName
             }).ToList();
         }
     }
