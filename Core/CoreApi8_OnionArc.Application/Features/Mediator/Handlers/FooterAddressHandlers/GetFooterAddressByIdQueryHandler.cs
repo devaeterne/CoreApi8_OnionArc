@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Metadata.Ecma335;
 using System.Threading.Tasks;
 using CoreApi8_OnionArc.Application.Features.Mediator.Queries.FooterAddressQueries;
 using CoreApi8_OnionArc.Application.Features.Mediator.Result.FooterAddress;
@@ -21,13 +22,14 @@ namespace CoreApi8_OnionArc.Application.Features.Mediator.Handlers.FooterAddress
 
         public async Task<GetFooterAddressByIdQueryResult> Handle(GetFooterAddressByIdQuery request, CancellationToken cancellationToken)
         {
-            var values = await _repository.GetByIdAsync(request.Id);
+            var value = await _repository.GetByIdAsync(request.Id);
             return new GetFooterAddressByIdQueryResult
             {
-                Adress = values.Adress,
-                Description = values.Description,
-                Email = values.Email,
-                Phone = values.Phone
+                Adress = value.Adress,
+                Description = value.Description,
+                Email = value.Email,
+                FooterAddressID = value.FooterAddressID,
+                Phone = value.Phone
             };
         }
     }

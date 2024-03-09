@@ -1,24 +1,52 @@
 ﻿<Properties StartupConfiguration="{63BE8926-0675-42C8-A316-B1D42281ABA6}|https">
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Presentation.CoreApi8__OnionArc.WebApi PreferredExecutionTarget="/Applications/Arc.app" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Core/CoreApi8_OnionArc.Application/Features/Mediator/Handlers/CategoryHandlers/GetCategoryByIdQueryHandler.cs">
+    <Files>
+      <File FileName="Frontends/CoreApi8_OnionArc.WebUI/Views/Blog/Index.cshtml" Line="33" Column="1" />
+      <File FileName="Frontends/CoreApi8_OnionArc.WebUI/Controllers/LoginController.cs" Line="38" Column="77" />
+      <File FileName="Presentation/CoreApi8_OnionArc.WebApi/Controllers/AuthorsController.cs" Line="9" Column="32" />
+      <File FileName="Core/CoreApi8_OnionArc.Application/Features/Mediator/Handlers/AppUserHandlers/CreateAppUserCommandHandler.cs" Line="5" Column="19" />
+      <File FileName="Core/CoreApi8_OnionArc.Application/Enums/RolesType.cs" Line="7" Column="28" />
+      <File FileName="Core/CoreApi8_OnionArc.Application/Features/Mediator/Handlers/CarPricingHandlers/GetCarPricingWithTimePeriodQueryHandler.cs" Line="7" Column="63" />
+      <File FileName="Core/CoreApi8_OnionArc.Application/Features/Mediator/Handlers/CategoryHandlers/GetCategoryByIdQueryHandler.cs" Line="33" Column="2" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="CoreApi8_OnionArc" selected="True">
-            <Node name="Core" expanded="True" />
-            <Node name="Frontends" expanded="True">
-              <Node name="CoreApi8_OnionArc.WebUI" expanded="True" />
+          <Node name="CoreApi8_OnionArc">
+            <Node name="Core" expanded="True">
+              <Node name="CoreApi8_OnionArc.Application" expanded="True">
+                <Node name="Enums" expanded="True" />
+                <Node name="Features" expanded="True">
+                  <Node name="Mediator" expanded="True">
+                    <Node name="Commands" expanded="True" />
+                    <Node name="Handlers" expanded="True">
+                      <Node name="AppUserHandlers" expanded="True" />
+                      <Node name="CarPricingHandlers" expanded="True" />
+                      <Node name="CategoryHandlers" expanded="True" />
+                    </Node>
+                  </Node>
+                </Node>
+              </Node>
+              <Node name="CoreApi8_OnionArc.Domain" expanded="True">
+                <Node name="Dependencies" expanded="True" />
+                <Node name="Entities" expanded="True" />
+              </Node>
             </Node>
-            <Node name="Infrastructure" expanded="True" />
+            <Node name="Presentation">
+              <Node name="CoreApi8_OnionArc.WebApi">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
