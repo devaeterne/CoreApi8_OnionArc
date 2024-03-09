@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("1f46ff63-29cf-4865-830b-e9650b5bd760")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoreApi8_OnionArc.WebUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0de62cbdbbf53e5a1ffbb3f140a541bd5fbbbe6e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+324f1a9fa4696053508d49ce496bef10ca99bac7")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoreApi8_OnionArc.WebUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoreApi8_OnionArc.WebUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

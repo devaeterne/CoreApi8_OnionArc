@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>1f46ff63-29cf-4865-830b-e9650b5bd760</UserSecretsId>
+  </PropertyGroup>
+
+<ItemGroup>
+    <None Include="wwwroot\carbook-master\.DS_Store" />
+    <None Include="wwwroot\carbook-master\css\.DS_Store" />
+    <None Include="wwwroot\carbook-master\css\bootstrap\.DS_Store" />
+    <None Include="wwwroot\carbook-master\css\css\.DS_Store" />
+    <None Include="wwwroot\carbook-master\fonts\.DS_Store" />
+    <None Include="wwwroot\carbook-master\fonts\flaticon\.DS_Store" />
+    <None Include="wwwroot\carbook-master\fonts\flaticon\font\.DS_Store" />
+    <None Include="wwwroot\carbook-master\fonts\ionicons\fonts\.DS_Store" />
+    <None Include="wwwroot\carbook-master\images\.DS_Store" />
+    <None Include="wwwroot\carbook-master\js\.DS_Store" />
+    <None Include="wwwroot\carbook-master\scss\.DS_Store" />
+    <None Include="wwwroot\carbook-master\scss\bootstrap\.DS_Store" />
+  </ItemGroup>
+  
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.QuickGrid.EntityFrameworkAdapter" Version="8.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CoreApi8_OnionArc.Dtos\CoreApi8_OnionArc.Dtos.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Presentation\CoreApi8_OnionArc.WebApi\CoreApi8_OnionArc.WebApi.csproj">
+      <GlobalPropertiesToRemove></GlobalPropertiesToRemove>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

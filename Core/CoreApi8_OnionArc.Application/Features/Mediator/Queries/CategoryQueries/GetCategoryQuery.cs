@@ -8,7 +8,6 @@ using MediatR;
 namespace CoreApi8_OnionArc.Application.Features.Mediator.Queries.CategoryQueries
 {
     public class GetCategoryQuery : IRequest<List<GetCategoryQueryResult>>
-
     {
 
     }

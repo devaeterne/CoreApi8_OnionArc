@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/CoreApi8_OnionArc.WebUI.props" />
-</Project>
