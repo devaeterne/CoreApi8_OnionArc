@@ -11,7 +11,7 @@ namespace CoreApi8_OnionArc.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=192.168.15.200;database=CarBook;Persist Security Info=True;User ID=safak;Password=848533As;TrustServerCertificate=true");
+            optionsBuilder.UseSqlServer("connectionString");
 
         }
         public DbSet<AppUser> AppUsers { get; set; }
